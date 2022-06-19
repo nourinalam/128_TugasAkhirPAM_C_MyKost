@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".RegisterAdmin"
+    android:background="@drawable/bguser">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="288dp"
+        android:layout_height="160dp"
+        app:srcCompat="@drawable/kos" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REGISTER USER"
+        android:layout_margin="30dp"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+    <EditText
+        android:id="@+id/txUsernameReg"
+        android:layout_width="380dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/border_text"
+        android:drawablePadding="5dp"
+        android:ems="10"
+
+        android:importantForAutofill="no"
+        android:drawableStart="@drawable/logo_orang"
+        android:drawableLeft="@drawable/logo_orang"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:hint="Username"
+        android:inputType="textPersonName" />
+    <EditText
+        android:id="@+id/txPasswordReg"
+        android:layout_width="380dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/border_text"
+        android:drawableStart="@drawable/logo_kunci"
+        android:drawableLeft="@drawable/logo_kunci"
+        android:drawablePadding="5dp"
+        android:ems="10"
+
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:hint="Password"
+        android:inputType="textPassword" />
+    <EditText
+        android:id="@+id/txConPassword"
+        android:layout_width="380dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:background="@drawable/border_text"
+        android:drawableStart="@drawable/logo_kunci"
+        android:drawableLeft="@drawable/logo_kunci"
+        android:drawablePadding="5dp"
+        android:ems="10"
+        android:hint="Confirm Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@color/coklat"
+        android:text="REGISTER" />
+    <TextView
+        android:id="@+id/tvRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kembali Ke Login"
+        android:layout_marginBottom="30dp" />
+
+</LinearLayout>

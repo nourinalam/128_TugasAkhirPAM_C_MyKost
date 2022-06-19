@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".LoginAdmin"
+    android:background="@drawable/bgadmin">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="263dp"
+        android:layout_height="136dp"
+        app:srcCompat="@drawable/kos" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADMIN LOGIN"
+        android:layout_margin="30dp"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="291dp"
+        android:layout_height="wrap_content"
+        android:text="Username" />
+
+    <EditText
+        android:id="@+id/txUsername"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/border_text"
+        android:drawablePadding="5dp"
+        android:ems="10"
+        android:paddingStart="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="@color/black"
+        android:importantForAutofill="no"
+        android:textColorHint="@color/black"
+        android:drawableStart="@drawable/logo_orang"
+        android:drawableLeft="@drawable/logo_orang"
+        android:hint="Username"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="291dp"
+        android:layout_height="wrap_content"
+        android:text="Password" />
+
+    <EditText
+        android:id="@+id/txPassword"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:paddingStart="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:background="@drawable/border_text"
+        android:drawablePadding="5dp"
+        android:ems="10"
+        android:importantForAutofill="no"
+        android:drawableStart="@drawable/logo_kunci"
+        android:drawableLeft="@drawable/logo_kunci"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="181dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@color/kuning"
+        android:text="LOGIN" />
+
+    <TextView
+        android:id="@+id/tvCreateAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="Buat Akun" />
+
+</LinearLayout>

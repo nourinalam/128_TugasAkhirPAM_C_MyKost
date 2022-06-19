@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "947032044002",
+    "project_id": "my-kost-5e1d7",
+    "storage_bucket": "my-kost-5e1d7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:947032044002:android:e518d88b80e4a23fa109bb",
+        "android_client_info": {
+          "package_name": "com.example.mykost"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "947032044002-4e6r1q5ur4cqspr74gmetf91rslp7lme.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASVnynb_K4xPPZWt_63yj0R4j3N9NJVzE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "947032044002-4e6r1q5ur4cqspr74gmetf91rslp7lme.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
